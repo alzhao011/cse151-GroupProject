@@ -34,5 +34,19 @@ You will also need a Kaggle account to download.
 - **Target definition**:  
   - Regression target: revenue or ROI.  
   - Classification target: success = ROI ≥ 1 and vote_average ≥ 6.  
-- **Outliers**: Cut extreme values out after log transform.  
+- **Outliers**: Cut extreme values out after log transform.
 
+
+## Milestone 3
+
+For this milestone we finished the main preprocessing steps:
+- Converted numeric columns to numbers and filled missing values.
+- ROI, log of budget/revenue, release year/month/quarter
+- One-hot encoded top languages and genres
+- Scaled numeric features with z-score
+
+Our first model was an SVM RBF.  
+- Smaller C values underfit 
+- Larger C values overfit
+- balance was at C = 1.  
+- Overall accuracy on the test set was good
