@@ -88,5 +88,8 @@ Future Implementations:
 - Look at network features for cast and crew since some actors and directors almost guarantee success  
 - Experiment with deeper neural nets  
 
-**Final thoughts:**  
+**Conclusion:**  
 The cluster augmented model clearly outperformed the baseline, which means there’s hidden structure in the data worth capturing. But even then, predicting movie success is messy. There are just too many outside factors. The model can get close, but it’s never going to be perfect.
+
+**Statement of Collaboration:**
+I'm the only person in my group which means that I did 100% of the work by myself. 
